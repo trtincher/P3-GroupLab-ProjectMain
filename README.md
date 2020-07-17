@@ -1,4 +1,3 @@
-
 # Project Overview
 
 ## Forte App
@@ -24,15 +23,8 @@ Forte is an app that allows students to find and connect with music teachers for
 
 ## Wireframes
 
-Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.
-
 - [Mobile](https://i.imgur.com/P3iBEZf.jpg)
 - [Desktop](https://i.imgur.com/xpOWo0E.jpg)
-  Wireframing Resources:
-- [Mockflow](https://mockflow.com/app/#Wireframe)
-- [Figma](https://www.figma.com/)
-
-## Models
 
 ## Time/Priority Matrix
 
@@ -111,11 +103,13 @@ Use this section to list of all major issues encountered and their resolution.
 **ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier  
 **RESOLUTION**: Missing comma after first object in sources {} object
 =======
+
 # P3-GroupLab-ProjectMain
 
 ## Models
 
 ### Student
+
 - firstName (String) (required)
 - lastName (String)
 - email (String) (required)
@@ -127,6 +121,7 @@ Use this section to list of all major issues encountered and their resolution.
 - student/teacher (Boolean) (permanent)
 
 ### Teacher
+
 - firstName (String) (required)
 - lastName (String)
 - email (String) (required)
@@ -138,4 +133,3 @@ Use this section to list of all major issues encountered and their resolution.
 - teachingStyle (String)
 - online (Boolean)
 - student/teacher (Boolean) (permanent)
-
