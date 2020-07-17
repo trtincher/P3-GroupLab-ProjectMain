@@ -10,6 +10,8 @@ Forte is an app that allows students to find and connect with music teachers for
 #### MVPs
 - Render data on page 
 - Allow user to choose favorites CRUD functionality on student profiles
+- Create a relationship between the teacher and student collections
+- Delete all instances of a student from all teacher lists when a student deletes their profile
 - CRUD functionality on teacher profiles
 - Match students with teacher(s) based on at least 1 criteria
 - Sign-in functionality (on landing page?)
@@ -25,30 +27,33 @@ Forte is an app that allows students to find and connect with music teachers for
 - Avatar
 - Password functionality
 - Track time of submission (newest on top)
+
 #### MVP
-| Component | Priority | Estimated Time | Time Invetsted | Actual Time |
+| Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| CRUD functionality on student profiles | H | 2hr | -hr | -hr|
-| CRUD functionality on teacher profiles | H | 2hr | -hr | -hr|
-| Match students with teacher(s) based on at least 1 criteria| H | 2hr | -hr | -hr|
-| Sign-in functionality (on landing page?) | H | 2hr| -hr | -hr |
-| Deploy early (M/T EOD?)| H | 2hr | -hr | -hr|
-| Responsive | H | 2hr | -hr | -hr|
-| Total | H | 12hrs| -hrs | -hrs |
+| CRUD functionality on student profiles | H | 8hr | -hr | -hr|
+| CRUD functionality on teacher profiles | H | 8hr | -hr | -hr|
+| Create a relationship between the teacher and student collections | H | 16hr | -hr | -hr|
+| Delete all instances of a student from all teacher lists when a student deletes their profile | H | 12hr | -hr | -hr|
+| Match students with teacher(s) based on at least 1 criteria| H | 12hr | -hr | -hr|
+| Sign-in functionality (on landing page?) | H | 16hr| -hr | -hr |
+| Deploy early (M/T EOD?)| H | 12hr | -hr | -hr|
+| Responsive | H | 16hr | -hr | -hr|
+| Total | H | 100hrs| -hrs | -hrs |
 #### PostMVP
-| Component | Priority | Estimated Time | Time Invetsted | Actual Time |
+| Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Add additional criteria (idiom, language, secondary instrument, location, etc) | M | 2hr | -hr | -hr|
-| Save matches/favorites | M | 2hr | -hr | -hr|
-| Reviews of teachers | M | 2hr | -hr | -hr|
-| Reviews of students | H | 2hr | -hr | -hr|
-| Age ranges for students | L | 2hr | -hr | -hr|
-| Search functionality | H | 2hr | -hr | -hr|
-| Headshot or thumbnail| M | 2hr | -hr | -hr|
-| Avatar | L | 2hr| -hr | -hr |
-| Password functionality | L | 2hr | -hr | -hr|
-| Track time of submission (newest on top) | H | 2hr | -hr | -hr|
-| Total | H | 22hrs| -hrs | -hrs |
+| Save matches/favorites | M | 6hr | -hr | -hr|
+| Reviews of teachers | M | 6hr | -hr | -hr|
+| Reviews of students | H | 6hr | -hr | -hr|
+| Age ranges for students | L | 6hr | -hr | -hr|
+| Search functionality | H | 10hr | -hr | -hr|
+| Headshot or thumbnail| M | 6hr | -hr | -hr|
+| Avatar | L | 6hr| -hr | -hr |
+| Password functionality | L | 12hr | -hr | -hr|
+| Track time of submission (newest on top) | H | 6hr | -hr | -hr|
+| Total | H | 66hrs | -hrs | -hrs |
 
 ## Project Schedule
 
@@ -86,17 +91,16 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 
 ## User Stories
-Forte's user stories correspond with our MVPs and Post MVPs. 
-Users want to create accounts, so they can access the app.
-Users want to be able to update their account information in case anything changes.
-Users want to be able to delete their account to keep their information private if they no longer wish to use Forte.
-If the user is a teacher, they want to be matched with students that match certain criteria.
-If the user is a student, they want to be matched with teachers hat match certain criteria.
-Teacher users want to be able to search for students.
-Student users want to be able to search for teachers.
-Users want to have passwords to their accounts to feel secure.
-Users like to make things personalized, they would like to add headshots or avatars.
-Users want to have a timeline refresh to have the newest user match information on top.
+- Users want to create accounts, so they can access the app. 
+- Users want to be able to update their account information in case anything changes. 
+- Users want to be able to delete their account to keep their information private if they no longer wish to use Forte. 
+- If the user is a teacher, they want to be matched with students that match certain criteria. 
+- If the user is a student, they want to be matched with teachers hat match certain criteria
+- Teacher users want to be able to search for students. 
+- Student users want to be able to search for teachers. 
+- Users want to have passwords to their accounts to feel secure. 
+- Users like to make things personalized, they would like to add headshots or avatars. 
+- Users want to have a timeline refresh to have the newest user match information on top.
 
 ## Wireframes
 
@@ -150,8 +154,10 @@ Use this section to list of all major issues encountered and their resolution.
 - idiom (String) (required)
 - language (String)
 - other (String)
+- My Teaches (Array)
 - online (Boolean)
 - student/teacher (Boolean) (permanent)
+- Teacher
 
 ### Teacher
 
@@ -165,4 +171,5 @@ Use this section to list of all major issues encountered and their resolution.
 - language (String)
 - teachingStyle (String)
 - online (Boolean)
+- Student Roster (Array)
 - student/teacher (Boolean) (permanent)
