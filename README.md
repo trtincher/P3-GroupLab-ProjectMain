@@ -48,6 +48,20 @@ Forte is an app that allows students to find and connect with music teachers for
 
 ## User Stories
 
+Forte's user stories correspond with our MVPs and Post MVPs. 
+
+Users want to create accounts, so they can access the app.
+Users want to be able to update their account information in case anything changes.
+Users want to be able to delete their account to keep their information private if they no longer wish to use Forte.
+If the user is a teacher, they want to be matched with students that match certain criteria.
+If the user is a student, they want to be matched with teachers hat match certain criteria.
+Teacher users want to be able to search for students.
+Student users want to be able to search for teachers.
+Users want to have passwords to their accounts to feel secure.
+
+Users like to make things personalized, they would like to add headshots or avatars.
+Users want to have a timeline refresh to have the newest user match information on top.
+
 ## Wireframes
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.
