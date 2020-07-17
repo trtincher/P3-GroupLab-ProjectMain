@@ -26,12 +26,14 @@ Forte is an app that allows students to find and connect with music teachers for
 - [Meet the Team](https://res.cloudinary.com/tylerdavisfilms/image/upload/v1595004422/SEIR%20Project%203/WireFrames/MeettheTeam_rr93yb.png)
 - [Student Matches](https://res.cloudinary.com/tylerdavisfilms/image/upload/v1595004422/SEIR%20Project%203/WireFrames/MatchesStudent_gxmbd7.png)
 - [Teacher Matches](https://res.cloudinary.com/tylerdavisfilms/image/upload/v1595004422/SEIR%20Project%203/WireFrames/MatchesTeacher_zvxbx1.png)
+- [Student Signup](https://res.cloudinary.com/tylerdavisfilms/image/upload/v1595004422/SEIR%20Project%203/WireFrames/FormStudent_le0rn8.png)
 - [Teacher Sign-Up](https://res.cloudinary.com/tylerdavisfilms/image/upload/v1595004422/SEIR%20Project%203/WireFrames/FormTeacher_gu8b5y.png)
-- [Student Matches](https://res.cloudinary.com/tylerdavisfilms/image/upload/v1595004422/SEIR%20Project%203/WireFrames/MatchesStudent_gxmbd7.png)
-- [Student Matches](https://res.cloudinary.com/tylerdavisfilms/image/upload/v1595004422/SEIR%20Project%203/WireFrames/MatchesStudent_gxmbd7.png)
-- [Student Matches](https://res.cloudinary.com/tylerdavisfilms/image/upload/v1595004422/SEIR%20Project%203/WireFrames/MatchesStudent_gxmbd7.png)
-- [Student Matches](https://res.cloudinary.com/tylerdavisfilms/image/upload/v1595004422/SEIR%20Project%203/WireFrames/MatchesStudent_gxmbd7.png)
-- [Student Matches](https://res.cloudinary.com/tylerdavisfilms/image/upload/v1595004422/SEIR%20Project%203/WireFrames/MatchesStudent_gxmbd7.png)
+- [Student Dashboard](https://res.cloudinary.com/tylerdavisfilms/image/upload/v1595004423/SEIR%20Project%203/WireFrames/StudentDashBoard_v7t4fw.png)
+- [Teacher Dashboard](https://res.cloudinary.com/tylerdavisfilms/image/upload/v1595004423/SEIR%20Project%203/WireFrames/TeacherDashBoard_x2ggpi.png)
+- [Student Profile](https://res.cloudinary.com/tylerdavisfilms/image/upload/v1595004423/SEIR%20Project%203/WireFrames/StudentProfile_u0ljz2.png)
+- [Teacher Profile](https://res.cloudinary.com/tylerdavisfilms/image/upload/v1595004423/SEIR%20Project%203/WireFrames/TeacherProfile_drlfpn.png)
+- [Signup Landing](https://res.cloudinary.com/tylerdavisfilms/image/upload/v1595004422/SEIR%20Project%203/WireFrames/SignupLanding_gqwgat.png)
+- [Home Landing](https://res.cloudinary.com/tylerdavisfilms/image/upload/v1595004423/SEIR%20Project%203/WireFrames/Project3_Landing_Mobile_nayj7j.png)
 
 ## Time/Priority Matrix
 
