@@ -31,16 +31,34 @@
 
 ## Project Schedule
 
-This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
-You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
 | Day | Deliverable | Status
 |---|---| ---|
-|Day 1| Project Description | Incomplete
-|Day 1| Wireframes / Priority Matrix / Timeline | Incomplete
-|Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Day 4| MVP & Bug Fixes | Incomplete
-|Day 5| Final Touches | Incomplete
-|Day 6| Present | Incomplete
+|Day 1 - Fri|Project Proposal|In Progress
+|Day 1 - Fri|Backend Repo|Done
+|Day 1 - Fri|Frontend Repo|Done
+|Day 1 - Fri|Create BE Basic File Structure|Incomplete
+|Day 1 - Fri|Create FE Basic File Structure|Incomplete
+|Day 1 - Fri|BE Placeholder Content|Incomplete
+|Day 1 - Fri|FE Placeholder Content|Incomplete
+|Stretch Goal|Deploy FE|Incomplete
+|Stretch Goal|Deploy BE|Incomplete
+|Day 3- Mon|BE Models|Incomplete
+|Day 3- Mon|BE Routes|Incomplete
+|Day 3- Mon|FE Component Mapping|Incomplete
+|Day 3- Mon|FE Component/File Fill|Incomplete
+|Day 3- Mon|FE Routes|Incomplete
+|Day 3- Mon|Re-Deploy FE/BE|Incomplete
+|Day 4 - Tues|FE Components|Incomplete
+|Day 4 - Tues|Styling|Incomplete
+|Day 4 - Tues|Re-Deploy FE/BE|Incomplete
+|Day 5 - Wed|FE Component|Incomplete
+|Day 5 - Wed|Styling|Incomplete
+|Stretch Goal|Post-MVP Deliverables|Incomplete
+|Day 5 - Wed|Re-Deploy FE/BE|Incomplete
+|Day 6 - Thurs|Post-MVP Deliverables|Incomplete
+|Day 6 - Thurs|Final deployment|Incomplete
+|Day 6 - Thurs|Re-Deploy FE/BE|Incomplete
+|Day 7 - Fri|Presentation|Incomplete
 
 ## Project Description
 
