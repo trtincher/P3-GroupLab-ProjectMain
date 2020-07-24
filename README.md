@@ -135,16 +135,6 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 React, JS, SCSS, Express, MongoDB, Mongoose, React-Router
 
-## Code Snippet
-
-Use this section to include a brief code snippet of functionality that you are proud of an a brief description
-
-```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
-```
-
 ## Issues and Resolutions
 
 Use this section to list of all major issues encountered and their resolution.
@@ -163,7 +153,29 @@ We all thought Edit Profile would be a quick component to complete. I was reusin
 ```js
 .then(()=> setIsTeacherUpdated(false))
 ```
+Another key piece was understanding how to pass in the data to the form imput so that the field values pre-populated correctly.
+- setTeacherInput and setStudentInput where expecting an object
+
 ```js
+  useEffect (()=>{
+    setTeacherInput(activeUser[0])
+    setStudentInput(activeUser[0])
+  },[])
+```
+Below is the code in context
+
+```js
+const [studentInput, setStudentInput] = useState({
+    firstName: "",
+    lastName: "",
+    email: "",
+    idiom: "",
+    language: "",
+    location: "",
+    other: "",
+    student: true,
+  });
+  
   useEffect (()=>{
     setTeacherInput(activeUser[0])
     setStudentInput(activeUser[0])
