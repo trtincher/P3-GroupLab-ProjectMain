@@ -157,6 +157,38 @@ Spent a long time trying to re-route to a page within a handleSubmit function. A
 
 ```
 
+#### Edit Profile
+We all thought Edit Profile would be a quick component to complete. I was reusing the forms and a lot of the functionality Tyler had already written in SignUp.js. The issue I came across was displaying the updated information. Everyone on my team and Madeline helped with this problem. The line below is what I needed to not have an infinite loop. Travis was the one who ended up writing this key piece of information.
+
+```js
+.then(()=> setIsTeacherUpdated(false))
+```
+```js
+  useEffect (()=>{
+    setTeacherInput(activeUser[0])
+    setStudentInput(activeUser[0])
+  },[])
+  const handleTeacherSubmit = (e) => {
+    e.preventDefault();
+    console.log("handle teacher submit");
+    axios({
+      url: `${apiUrl}/teachers/${activeUser[0]._id}`,
+      method: "PUT",
+      data: teacherInput,
+    })
+      .then(() => setIsTeacherUpdated(true))
+      .catch(console.error);
+  };
+if(isTeacherUpdated){
+  axios({url: `${apiUrl}/teachers/email/${activeUser[0].email}`})
+    .then((res) => setActiveUser(res.data))
+    .then(()=> setIsTeacherUpdated(false))
+    .then(()=> props.history.push('/dashboard'))
+    .catch(console.error) 
+}
+
+```
+
 #### Connection Button
 The connections button was especially tricky because of all the API calls and reloads it needed to perform:
 
