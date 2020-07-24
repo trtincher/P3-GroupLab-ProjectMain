@@ -31,15 +31,29 @@ Forte is an app that allows students to find and connect with music teachers for
 #### MVP
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| CRUD functionality on student profiles | H | 8hr | -hr | -hr|
-| CRUD functionality on teacher profiles | H | 8hr | -hr | -hr|
-| Create a relationship between the teacher and student collections | H | 16hr | -hr | -hr|
-| Delete all instances of a student from all teacher lists when a student deletes their profile | H | 12hr | -hr | -hr|
-| Match students with teacher(s) based on at least 1 criteria| H | 12hr | -hr | -hr|
-| Sign-in functionality (on landing page?) | H | 16hr| -hr | -hr |
-| Deploy early (M/T EOD?)| H | 12hr | -hr | -hr|
-| Responsive | H | 16hr | -hr | -hr|
-| Total | H | 100hrs| -hrs | -hrs |
+|Planning|H|5||2:30:00|
+Management Tasks|H|5||40:00:00
+Frontend Setup|H|4||6:00:00
+Layout/Nav/Footer|H|4||7:30:00
+Landing|H|4||0:30:00
+Dashboard|H|4||7:00:00
+Deployment|H|4||4:00:00
+Profile|H|4||3:00:00
+Login|H|4||3:00:00
+Connections|H|4||4:00:00
+Signup|H|4||6:30:00
+DeleteProfile|H|4||2:00:00
+EditProfile|H|4||12:00:00
+Matches|H|4||3:00:00
+Styling|H|4||20:00:00
+Backend Setup|H|25||6:00:00
+BE Bug Fixes|H|25||5:00:00
+Seed setup|H|25||1:00:00
+Cascade Delete|H|25||3:00:00
+Frontend Total|H|52||72:30:00
+Backend|H|50:00:00||81:30:00
+Overall Total|H|112:00:00||136:00:00
+
 #### PostMVP
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
@@ -76,17 +90,17 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |Day 2- Mon|FE Component/File Fill|Done
 |Day 2- Mon|FE Routes|Done
 |Day 2- Mon|Re-Deploy FE/BE|Done
-|Day 3 - Tues|FE Components|In Progress
-|Day 3 - Tues|Styling|In Progress
-|Day 3 - Tues|Re-Deploy FE/BE|Incomplete
-|Day 4 - Wed|FE Component|Incomplete
-|Day 4 - Wed|Styling|Incomplete
+|Day 3 - Tues|FE Components|Complete
+|Day 3 - Tues|Styling|Complete
+|Day 3 - Tues|Re-Deploy FE/BE|Complete
+|Day 4 - Wed|FE Component|Complete
+|Day 4 - Wed|Styling|Complete
 |Stretch Goal|Post-MVP Deliverables|Incomplete
-|Day 4 - Wed|Re-Deploy FE/BE|Incomplete
+|Day 4 - Wed|Re-Deploy FE/BE|Complete
 |Day 5 - Thurs|Post-MVP Deliverables|Incomplete
-|Day 5 - Thurs|Final deployment|Incomplete
-|Day 5 - Thurs|Re-Deploy FE/BE|Incomplete
-|Day 6 - Fri|Presentation|Incomplete
+|Day 5 - Thurs|Final deployment|Complete
+|Day 5 - Thurs|Re-Deploy FE/BE|Complete
+|Day 6 - Fri|Presentation|Complete
 
 
 
@@ -102,24 +116,24 @@ You are **responsible** for scheduling time with your squad to seek approval for
 - Users like to make things personalized, they would like to add headshots or avatars. 
 - Users want to have a timeline refresh to have the newest user match information on top.
 
-## Wireframes
+## Deployment Links
+- [Frontend](http://fortefound.surge.sh/)
+- [Backend](https://p3-forte-backend.herokuapp.com/api/teachers)
 
-- [Meet the Team](https://res.cloudinary.com/tylerdavisfilms/image/upload/v1595004422/SEIR%20Project%203/WireFrames/MeettheTeam_rr93yb.png)
-- [Student Matches](https://res.cloudinary.com/tylerdavisfilms/image/upload/v1595004422/SEIR%20Project%203/WireFrames/MatchesStudent_gxmbd7.png)
-- [Teacher Matches](https://res.cloudinary.com/tylerdavisfilms/image/upload/v1595004422/SEIR%20Project%203/WireFrames/MatchesTeacher_zvxbx1.png)
-- [Student Signup](https://res.cloudinary.com/tylerdavisfilms/image/upload/v1595004422/SEIR%20Project%203/WireFrames/FormStudent_le0rn8.png)
-- [Teacher Sign-Up](https://res.cloudinary.com/tylerdavisfilms/image/upload/v1595004422/SEIR%20Project%203/WireFrames/FormTeacher_gu8b5y.png)
-- [Student Dashboard](https://res.cloudinary.com/tylerdavisfilms/image/upload/v1595004423/SEIR%20Project%203/WireFrames/StudentDashBoard_v7t4fw.png)
-- [Teacher Dashboard](https://res.cloudinary.com/tylerdavisfilms/image/upload/v1595004423/SEIR%20Project%203/WireFrames/TeacherDashBoard_x2ggpi.png)
-- [Student Profile](https://res.cloudinary.com/tylerdavisfilms/image/upload/v1595004423/SEIR%20Project%203/WireFrames/StudentProfile_u0ljz2.png)
-- [Teacher Profile](https://res.cloudinary.com/tylerdavisfilms/image/upload/v1595004423/SEIR%20Project%203/WireFrames/TeacherProfile_drlfpn.png)
-- [Signup Landing](https://res.cloudinary.com/tylerdavisfilms/image/upload/v1595004422/SEIR%20Project%203/WireFrames/SignupLanding_gqwgat.png)
-- [Home Landing](https://res.cloudinary.com/tylerdavisfilms/image/upload/v1595004423/SEIR%20Project%203/WireFrames/Project3_Landing_Mobile_nayj7j.png)
+## Project Board Links
+- [WireFrames](https://res.cloudinary.com/dugmhtotn/image/upload/v1595610099/Mobile-Wireframes_m1vv7b.jpg)
+- [Backend File Structer](https://res.cloudinary.com/dugmhtotn/image/upload/v1595609318/Backend-File-Structure_ngot1g.jpg)
+- [Frontend File Structer](https://res.cloudinary.com/dugmhtotn/image/upload/v1595609325/Front-End-File-Structure_mguody.jpg)
+- [Frontend Routes/Links](https://res.cloudinary.com/dugmhtotn/image/upload/v1595609336/Frontend-Routes-Links_agabqs.jpg)
+- [React Framework](https://res.cloudinary.com/dugmhtotn/image/upload/v1595609355/React-Framwork_ivfom6.jpg)
+- [State/Function Allocation](https://res.cloudinary.com/dugmhtotn/image/upload/v1595609363/StateFunction-Allocation_kjmywn.jpg)
+- [GitHub Workflow](https://res.cloudinary.com/dugmhtotn/image/upload/v1595609346/GitHub-Workflow_k3x8sn.jpg)
 
 
-## Additional Libraries
 
-Use this section to list all supporting libraries and thier role in the project.
+## Languages and Libraries
+
+React, JS, SCSS, Express, MongoDB, Mongoose, React-Router
 
 ## Code Snippet
 
@@ -135,11 +149,71 @@ function reverse(string) {
 
 Use this section to list of all major issues encountered and their resolution.
 
-#### SAMPLE.....
+#### Understanding Props.history
+Spent a long time trying to re-route to a page within a handleSubmit function. Allie came in for the win on actually understanding that props.history contains the base url and then .push adds to that url. This effectivly re-routes the page.
+```js
+.then((res) => {
+        props.history.push("/login");
 
-**ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier  
-**RESOLUTION**: Missing comma after first object in sources {} object
-=======
+```
+
+#### Connection Button
+The connections button was especially tricky because of all the API calls and reloads it needed to perform:
+Add the student to the teacher's roster
+```js
+.then((res) => {
+        // handle the "Connect!" button
+  const handleConnectClick = () => {
+    let connection = userProfile[0];
+    if (connection !== undefined) {
+      if (connection.student === true) {
+        // add connection to activeUser's studentRoster
+        const addToRoster = async () => {
+          const response = await axios({
+            url: `${apiUrl}/teachers/${activeUser[0]._id}/addStudent/${connection._id}`,
+            method: "PUT",
+          });
+        };
+        // add activeUser to connection's myTeachers
+        const addToTeachers = async () => {
+          const response = await axios({
+            url: `${apiUrl}/students/${connection._id}/addTeacher/${activeUser[0]._id}`,
+            method: "PUT",
+          });
+        };
+        // re-assign activeUser
+        const getTeacher = async () => {
+          try {
+            const response = await axios(
+              `${apiUrl}/teachers/email/${activeUser[0].email}`
+            );
+            console.log("Profile getStudent: ", response);
+            if (response.data.length > 0) {
+              setActiveUser(response.data);
+            }
+          } catch (err) {
+            console.error(err);
+          }
+        };
+        const allTheThings = async () => {
+          await addToRoster();
+          await addToTeachers();
+          await getTeacher();
+        };
+        allTheThings();
+
+```
+#### Cors Error on Deployment
+We were getting a CORS error on the deployed site but not the local one. Allie figured out that we needed to turn our "origin" string into an array like so:
+```js
+var corsOptions = {
+  origin: ["http://localhost:3000", "https://fortefound.surge.sh"],
+  credentials: true,
+  methods: ["GET", "POST", "OPTIONS", "PUT", "DELETE"],
+};
+app.use(cors(corsOptions));
+ 
+```
 
 # P3-GroupLab-ProjectMain
 
