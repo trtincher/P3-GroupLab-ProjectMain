@@ -159,7 +159,11 @@ Spent a long time trying to re-route to a page within a handleSubmit function. A
 
 #### Connection Button
 The connections button was especially tricky because of all the API calls and reloads it needed to perform:
-Add the student to the teacher's roster
+- Add the student to the teacher's roster
+- Add the teacher to the student's roster
+- Re-assign ActiveUser so that the updated information loads throughout the app.
+- Use logic to figure out if the person in question is a teacher or student
+We were encountering an error that we had to reload the page to show the new information, and discovered after a few hours that two API paths were switched. 
 ```js
 .then((res) => {
         // handle the "Connect!" button
