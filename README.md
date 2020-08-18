@@ -256,6 +256,8 @@ We were encountering an error that we had to reload the page to show the new inf
 #### Cors Error on Deployment
 We were getting a CORS error on the deployed site but not the local one. Allie figured out that we needed to turn our "origin" string into an array like so:
 ```js
+//in server.js
+
 var corsOptions = {
   origin: ["http://localhost:3000", "https://fortefound.surge.sh"],
   credentials: true,
